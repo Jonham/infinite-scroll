@@ -1,2 +1,3 @@
 # infinite-scroll
-https://github.com/new
+One Way to Make Page Scroll Infinitely. 
+visite: http://scroll.jonham.cn 
