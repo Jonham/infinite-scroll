@@ -1,16 +1,20 @@
 #fork span {
     position: fixed;
-    top: 0;
-    right: 0;
+    top: -2em;
+    right: -7em;
     color: white;
     font-size: 1.5em;
     background-color: orange;
     border-bottom:2px solid white;
     border-top:2px solid white;
-    padding:.2em 2em;
+    padding:.2em 4em;
 
+    -webkit-transform-origin: left top;
+    -webkit-transform: rotate(45deg);
+    -moz-transform-origin: left top;
+    moz-transform: rotate(45deg);
     transform-origin: left top;
-    transform: rotate(45deg) translate(2.4em, -4.2em);
+    transform: rotate(45deg);
 }
 * {
     padding: 0;
